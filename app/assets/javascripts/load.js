@@ -10,32 +10,34 @@ $(window).load(function() {
  * Tooltip Hover Effects
 **/
 
-$("#github").hover(
-  function () {
-    $('#tt-github').show();
-  },
-  function () {
-    $('#tt-github').hide();
-  }
-);
+$(document).ready(function(){
+  $("#github").hover(
+    function () {
+      $('#tt-github').show();
+    },
+    function () {
+      $('#tt-github').hide();
+    }
+  );
 
-$("#linkedin").hover(
-  function () {
-    $('#tt-linkedin').show();
-  },
-  function () {
-    $('#tt-linkedin').hide();
-  }
-);
+  $("#linkedin").hover(
+    function () {
+      $('#tt-linkedin').show();
+    },
+    function () {
+      $('#tt-linkedin').hide();
+    }
+  );
 
-$("#contact").hover(
-  function () {
-    $('#tt-contact').show();
-  },
-  function () {
-    $('#tt-contact').hide();
-  }
-);
+  $("#contact").hover(
+    function () {
+      $('#tt-contact').show();
+    },
+    function () {
+      $('#tt-contact').hide();
+    }
+  );
+});
 
 /** 
  * Initializes the BXSlider Plugin
