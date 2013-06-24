@@ -1,0 +1,66 @@
+/* --------------------------------------- */
+/* LAYOUT AND TYPOGRAPHY :: NICK PORTFOLIO */
+/* --------------------------------------- */
+
+html{
+	font-family: "Open Sans", Arial, sans-serif;
+  overflow: hidden;
+}
+
+#wrapper{width: 1064px;margin: 200px auto 0 auto; text-align: center;}
+
+/* ---------------------------------------- */
+/* FULL BACKGROUND SELF ADJUSTING IMAGE CSS */
+/* ---------------------------------------- */
+
+.fullBg {position: fixed;top: 0;left: 0;overflow: hidden;}
+#maincontent {position: absolute;top: 0;left: 0;z-index: 50;overflow: hidden;width: 100%;height: 100%;}
+
+/* ---------------------------------- */
+/* BUSINESS CARD :: LEFT HALF CONTENT */
+/* ---------------------------------- */
+
+#content-wrap{
+	float: left;
+	width: 400px;
+	text-align: left;
+	height: 250px;
+}
+
+#content-wrap h2{
+	float: left;
+	font-size: 20pt;
+	margin-bottom: 0;
+	margin-top: 0;
+	color: #ddffff;
+	font-weight: 600;
+}
+
+#content-wrap h2 span{color: #f8831b;}
+#content-wrap h3{font-size: 15pt; color: #ddffff;font-weight: 400;margin-bottom: 0;font-style: italic;float: left;clear: left;margin-top: 0;margin-bottom: 10px;}
+#content-wrap p{float: left;clear: left;margin-top: 0px;font-weight: 300;color: white;width: 500px;}
+#content-wrap #action-buttons{float: left;clear: left;height: 28px;width: 209px;}
+#content-wrap #action-buttons a{float: left;text-align: center;padding-top: 5px;height: 23px;}
+
+#github{width: 72px;background: url(<%= image_path('links-bg.png') %>) 0 0;}
+#contact{width: 69px;background: url(<%= image_path('links-bg.png') %>) -140px 0;}
+#linkedin{width: 67px;background: url(<%= image_path('links-bg.png') %>) -72px 0;}
+
+#github:hover{background-position: 0 -28px;}
+#linkedin:hover{background-position: -72px -28px;}
+#contact:hover{background-position: -140px -28px;}
+
+#tooltips{float: left;clear: left;}
+#tooltips img{float: left;position: absolute;margin-top: 5px;display: none;}
+#tooltips #tt-linkedin{margin-left: 68px;}
+#tooltips #tt-contact{margin-left: 136px;}
+
+#slider{
+	float: right;
+	height: 275px;
+	width: 550px;
+	background: url(<%= image_path('slide_bg.png') %>) bottom center no-repeat;
+	padding: 0;
+	text-align: center;
+	margin-top: 15px;
+}

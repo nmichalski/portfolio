@@ -1,0 +1,3 @@
+development: &default
+  adapter: postgresql
+  database: nmichalski-dev
