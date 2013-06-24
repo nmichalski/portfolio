@@ -10,7 +10,8 @@
 	<link rel="stylesheet" href="http://necolas.github.io/normalize.css/2.1.2/normalize.css">
 
   <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
+  <%= stylesheet_link_tag 	 "jquery.bxslider" %>
+  <%= javascript_include_tag "application", "jquery.bxslider.min" %>
   <%= csrf_meta_tags %>
 
 </head>
@@ -23,8 +24,6 @@
 			<%= yield %>
 		</div>
 	</div>
-
-	<%= javascript_include_tag "load" %>
 	
 </body>
 </html>

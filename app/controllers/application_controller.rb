@@ -4,4 +4,10 @@ class ApplicationController < ActionController::Base
   def home
   end
 
+  def tribune
+  end
+
+  def enova
+  end
+
 end

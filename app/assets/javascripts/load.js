@@ -36,3 +36,16 @@ $("#contact").hover(
     $('#tt-contact').hide();
   }
 );
+
+/** 
+ * Initializes the BXSlider Plugin
+**/
+
+$(document).ready(function(){
+  $('.bxslider').bxSlider({
+    infiniteLoop: true,
+    pause: 3000,
+    auto: true,
+    controls: false
+  });
+});
